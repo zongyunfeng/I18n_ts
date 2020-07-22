@@ -5,7 +5,7 @@ const en = {
     info: [
       'My name is {{name}}, I come from {{country}}',
       {
-        name: undefined,
+        name: 'Jack',
         country: 'USA',
       },
     ],
