@@ -6,7 +6,7 @@ const zh: Locale = {
     info: [
       '我的名字是{{name}}，我来自{{country}}，',
       {
-        name: undefined,
+        name: '杰克',
         country: '中国',
       },
     ],
