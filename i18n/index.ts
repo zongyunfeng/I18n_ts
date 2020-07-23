@@ -1,10 +1,7 @@
 import en from './locales/en';
 import zh from './locales/zh';
 import {createI18n} from '@react-native-localize-ext/react';
-import * as RNLocalize from 'react-native-localize';
 
-const locales = RNLocalize.getLocales();
-const languageCode = locales[0].languageCode;
 const i18n = createI18n({
   defaultLocale: {
     key: 'en',
